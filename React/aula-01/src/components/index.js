@@ -1,0 +1,5 @@
+export {Header} from './header/header.component'
+export {Footer} from './footer/footer.component'
+export {Banner} from './banner/Banner.component'
+export {Projects} from './projects/Projects.component'
+export {Contact} from './contact/contact.component'

@@ -1,0 +1,50 @@
+.skindetail-main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-color: #363636;
+}
+
+.skindetail-title {
+  padding: 10px 0;
+  margin: 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: #ffffff;
+}
+
+.skindetail-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 80px;
+}
+
+.skindetail-image {
+  margin-bottom: 30px;
+}
+
+.skindetail-description {
+  width: 50%;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: #ffffff;
+}
+
+.skindetail-back-button {
+  width: 100px;
+  height: 40px;
+  margin-top: 90px;
+  font-size: 24px;
+  border: transparent;
+  color: #ffffff;
+  background-color: #363636;
+}

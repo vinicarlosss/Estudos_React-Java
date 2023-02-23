@@ -1,0 +1,26 @@
+.skin-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 270px;
+  height: 270px;
+  margin: 30px;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #1d1d1d 100%);
+  border: 2px solid #535353;
+  text-decoration: none;
+}
+
+.skin-img {
+  width: 220px;
+  height: 165px;
+}
+
+.skin-name {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: #ffffff;
+}

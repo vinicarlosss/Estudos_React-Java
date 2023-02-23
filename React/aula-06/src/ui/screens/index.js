@@ -1,0 +1,5 @@
+export { Home } from "./Home/home.screen"
+export { Agents } from "./Agents/agents.screen"
+export { AgentDetails } from "./AgentDetails/agentdetails.component"
+export { SkinDetails } from "./SkinDetails/skindetails.screen"
+export { Skins } from "./Skins/skins.screen"

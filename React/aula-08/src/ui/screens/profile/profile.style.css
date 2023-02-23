@@ -1,0 +1,39 @@
+.profile-main {
+  background-image: url("../../../assets/Springfield2.png");
+  background-size: cover;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.profile-content-box {
+  display: flex;
+  position: relative;
+  height: 50vh;
+  margin: 150px 0;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile-logout-button {
+  position: absolute;
+  width: 5%;
+  height: 5vh;
+  top: 90%;
+}
+
+.profile-img {
+  border-radius: 100%;
+  width: 500px;
+  height: 500px;
+}
+
+.profile-name {
+  font-weight: bold;
+  font-size: 24px;
+  background-color: aqua;
+}

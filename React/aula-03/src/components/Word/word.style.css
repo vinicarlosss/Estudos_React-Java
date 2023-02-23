@@ -1,0 +1,18 @@
+.container-word {
+  width: 30%;
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
+}
+
+.letter-spot {
+  display: flex;
+  justify-content: center;
+  height: 40px;
+  width: 30px;
+  border-bottom: solid 3px #ffffff;
+}
+
+.word-char {
+  font-size: 30px;
+}

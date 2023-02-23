@@ -1,0 +1,16 @@
+export const words = [
+  "React",
+  "java",
+  "devops",
+  "deploy",
+  "teste",
+  "mouse",
+  "key",
+  "tela",
+  "mesa",
+  "letra",
+  "janela",
+  "editor",
+  "html",
+  "css",
+];

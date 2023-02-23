@@ -1,0 +1,26 @@
+.skins-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  background-color: #363636;
+  padding: 10px 0;
+}
+
+.skins-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.footer-skikns-navbar-list {
+  display: flex;
+  list-style-type: none;
+}
+
+.footer-skikns-navbar-list a {
+  text-decoration: none;
+  font-size: 24px;
+  color: #ffffff;
+  padding: 0 10px;
+}

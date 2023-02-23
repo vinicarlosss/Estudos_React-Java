@@ -1,0 +1,231 @@
+.hogwarts-main {
+  width: 500px;
+  background-color: darkblue;
+  padding: 40px;
+  border-radius: 20px;
+}
+
+.hogwarts-header {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 45% 45%;
+  justify-content: space-around;
+  font-family: Harry;
+  color: #ffffff;
+  font-size: 30px;
+}
+
+.selected-form {
+  background-color: #cd3eff;
+}
+
+.hogwarts-header span {
+  display: flex;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+  border: solid 1px;
+  border-radius: 30px;
+}
+
+.class-title {
+  text-align: center;
+  color: #ffffff;
+  font-family: Harry;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 73.4%;
+}
+
+.class-subtitle {
+  text-align: center;
+  color: #ffffff;
+  font-family: Harry;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 73.4%;
+}
+
+.form-options {
+  background-color: #ffffff;
+  margin: 20px 40px;
+  height: 200px;
+  width: 100%;
+  border-radius: 20px;
+  overflow-y: scroll;
+}
+
+.form-options::-webkit-scrollbar {
+  width: 1px;
+}
+
+.class-checkbox {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.class-checkbox-two {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: rgba(212, 90, 255, 0.1);
+}
+
+.app-form-class {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.submit-class-button {
+  font-family: Harry;
+  color: #ffffff;
+  width: 200px;
+  height: 40px;
+  font-size: 25px;
+  margin: 30px 0;
+  background: linear-gradient(5.2deg, #d45aff 3.52%, #cd3eff 80.16%);
+  border-radius: 5px;
+}
+
+.personaldata-title {
+  text-align: center;
+  color: #ffffff;
+  font-family: Harry;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 73.4%;
+}
+
+.app-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.app-label {
+  font-family: Harry;
+  font-size: 30px;
+  color: #ffffff;
+  margin-top: 20px;
+}
+
+.app-input {
+  font-family: Harry;
+  font-size: 25px;
+}
+
+.form-select {
+  font-family: Harry;
+  font-size: 25px;
+}
+
+.select-option {
+  font-family: Harry;
+}
+
+.submit-button {
+  font-family: Harry;
+  color: #ffffff;
+  font-size: 25px;
+  height: 40px;
+  margin: 60px 0 0 0;
+  background: linear-gradient(5.2deg, #d45aff 3.52%, #cd3eff 80.16%);
+  border-radius: 5px;
+}
+
+.result-box {
+  background-color: darkblue;
+  width: 1000px;
+  height: 70vh;
+  font-family: Harry;
+}
+
+.result-header {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.student-data {
+  padding-left: 36px;
+}
+
+.name {
+  font-weight: 600;
+  font-size: 45px;
+  line-height: 73.4%;
+  color: #ffffff;
+}
+
+.animal {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 73.4%;
+  color: #ffffff;
+}
+
+.period {
+  padding-right: 36px;
+  font-size: 30px;
+  color: #ffffff;
+}
+
+.house {
+  color: #ffffff;
+  font-size: 30px;
+  text-align: center;
+  background: linear-gradient(5.2deg, #ffce20 3.52%, #ffa843 80.16%);
+  border-radius: 100px;
+}
+
+.class-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 5px;
+}
+
+.class-box-title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 73.4%;
+  color: #ffffff;
+}
+
+.class-item {
+  display: flex;
+  color: #ffffff;
+  font-size: 30px;
+  align-items: center;
+  flex-direction: column;
+  height: 340px;
+  width: 100%;
+  overflow-x: scroll;
+}
+
+.class-item::-webkit-scrollbar {
+  width: 1px;
+}
+
+.error-popup-name {
+  font-family: Harry;
+  font-size: 30px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.lesson-error-popup {
+  font-family: Harry;
+  font-size: 35px;
+  color: #ffffff;
+  text-align: center;
+}

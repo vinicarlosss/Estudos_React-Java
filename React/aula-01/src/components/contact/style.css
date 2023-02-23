@@ -1,0 +1,70 @@
+#contact {
+    display: flex;
+    justify-content: space-around;
+    background: #A5410F;
+}
+
+.contact-image {
+    margin: 25px 0;
+}
+
+.contact-us-information {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #FFFFFF;
+}
+
+.contact-us-title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 101%;
+    margin-bottom: 10px;
+}
+
+.contact-us-text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 167%;
+}
+
+.contact-us-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-us-email {
+    display: flex;
+    justify-content: flex-start;
+    margin: 25px 0 15px 0;
+    align-items: center;
+}
+
+.contact-us-wpp {
+    display: flex;
+    justify-content: flex-start;
+    margin: 0 0 15px 0;
+    align-items: center;
+}
+
+.contact-us-icon {
+    Width: 26.65px;
+    Height: 21.52px;
+    margin: 0 15px 0 0;
+}
+
+.contact-us-icon:hover{
+    animation: iconanimation 1s infinite alternate-reverse linear;
+}
+
+@keyframes iconanimation {
+    from{
+        transform: translateX(10px);
+    }to{
+        transform: translateX(-10px);
+    }
+}

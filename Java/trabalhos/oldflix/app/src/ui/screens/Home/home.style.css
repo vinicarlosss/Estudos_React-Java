@@ -1,0 +1,19 @@
+body {
+  background: #141414;
+}
+
+.Home_main {
+  display: flex;
+  flex-direction: column;
+}
+
+.Home_filmes {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.Home_filmedetails {
+  text-decoration: none;
+}

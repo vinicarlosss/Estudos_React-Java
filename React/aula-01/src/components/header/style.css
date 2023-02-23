@@ -1,0 +1,25 @@
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 7vh;
+    width: 100%;
+    background: rgba(165, 65, 15, 0.18);
+}
+
+.navbar{
+    display: flex;
+    width: 30%;
+    justify-content: space-around;
+}
+
+.navitem{
+    padding: 10px;
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 101%;
+    color: black;
+}

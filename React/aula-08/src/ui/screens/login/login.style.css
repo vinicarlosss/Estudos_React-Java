@@ -1,0 +1,55 @@
+.login-main {
+  background-image: url("../../../assets/Springfield2.png");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.login-form {
+  background-color: aqua;
+  width: 300px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.login-title {
+  margin: 10px;
+}
+
+.login-input {
+  width: 250px;
+  height: 80px;
+  border-radius: 10px;
+}
+
+.login-form-button {
+  margin-top: 20px;
+  width: 100px;
+  height: 90px;
+  border-radius: 10px;
+}
+
+.form-login-error {
+  visibility: hidden;
+  text-align: center;
+  width: 200px;
+  font-weight: bold;
+  font-size: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #842029;
+  height: 5vh;
+  background-color: #f8d7da;
+  border-color: #f5c2c7;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+}

@@ -1,0 +1,24 @@
+.Navbar_header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Navbar_header--title {
+  color: #ff0000;
+}
+
+.Navbar_navlink--list {
+  display: flex;
+}
+
+.Navbar_navlink--item {
+  padding: 10px;
+  list-style-type: none;
+}
+
+.Navbar_navlink--link {
+  text-decoration: none;
+  color: #ffffff;
+}

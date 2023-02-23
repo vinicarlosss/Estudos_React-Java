@@ -1,0 +1,24 @@
+.app-container {
+    display: flex;
+    width: 1040px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header-title{
+    color: #ffffff;
+    text-shadow: 5px 5px 15px #6A5ACD;
+    font-family: Harry;
+    font-size: 80px;
+}
+
+.container-cards {
+    display: grid;
+    grid-template-columns: 45% 45%;
+    justify-content: space-around;
+}
+
+.button-img {
+    width: 100px;
+    height: 100px;
+}
