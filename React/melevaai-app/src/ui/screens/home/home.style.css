@@ -1,0 +1,18 @@
+.home__ {
+    min-height: 100vh;
+    background-image: url(https://www.desjardinsagents.com/o/get/dgag-blog/img/14024880/en_CA/none);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.home__div--conteudo {
+    width: 400px;
+    height: 400px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}

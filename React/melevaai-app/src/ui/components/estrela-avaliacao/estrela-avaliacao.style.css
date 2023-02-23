@@ -1,0 +1,24 @@
+.estrela-avaliacao__ {
+    display: flex;
+    gap: 10px;
+
+}
+
+.estrela-avaliacao__ button {
+    font-size: 60px;
+    transition: color 0.5s ease;
+    border: none;
+    background-color: transparent;
+}
+
+.estrela-avaliacao__amarela button {   
+    color: rgb(255, 217, 0);
+}
+
+.estrela-avaliacao__cinza button {
+    color: gray;
+}
+
+.estrela-avaliacao__cinza button:hover {
+    color: rgb(255, 217, 0);
+}

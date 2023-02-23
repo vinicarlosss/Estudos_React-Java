@@ -1,0 +1,22 @@
+.perfil__ {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.perfil__ section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.perfil__info--div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    font-size: 20px;
+}

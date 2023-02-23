@@ -1,0 +1,27 @@
+.botao-selecao__ativo, .botao-selecao__inativo {
+  padding: 8px 20px;
+  border: none;
+  border-radius: 20px;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+} 
+
+.botao-selecao__ativo {
+  background-color: #000;
+  color: #fff;
+}
+
+.botao-selecao__ativo:hover {
+  background-color: #2e2e2e;
+}
+
+.botao-selecao__inativo {
+  background-color: #fff;
+  color: #000;
+}
+
+.botao-selecao__inativo:hover {
+  background-color: #dadada;
+}

@@ -1,0 +1,22 @@
+.depositar__ {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.depositar__ section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.depositar__form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 2;
+    gap: 30px;
+}

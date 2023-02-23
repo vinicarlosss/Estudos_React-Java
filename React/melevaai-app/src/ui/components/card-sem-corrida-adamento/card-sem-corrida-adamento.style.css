@@ -1,0 +1,11 @@
+.card-sem-corrida-adamento__ {
+    background-image: url(https://static.vecteezy.com/system/resources/previews/002/641/426/original/404-data-not-found-vector.jpg);
+    background-size: cover;
+    background-position-y: center;
+    width: 60%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    color: black;
+    margin-bottom: 40px;
+}

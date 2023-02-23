@@ -1,0 +1,21 @@
+.header__ {
+    background-color: black;
+    width: 100%;
+    height: 64px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header__ h1 {
+    font-weight: normal;
+    font-size: 22px;
+}
+
+.header__div {
+    flex-grow: 1;
+    display: flex;
+    justify-content: end;
+    gap: 5px;
+}

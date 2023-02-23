@@ -1,0 +1,12 @@
+export { Home } from "./home/home.screen";
+export { Passageiro } from "./passageiro/passageiro.screen";
+export { Motorista } from "./motorista/motorista.screen";
+export { AlterarPassageiro } from "./alterar-passageiro/alterar-passageiro.screen"
+export { Cadastro } from "./cadastro/cadastro.screen";
+export { ListaMotoristas } from "./lista-motoristas/lista-motoristas.screen";
+export { Corrida } from "./corrida/corrida.screen";
+export { Viajar } from "./viajar/viajar.screen";
+export { ListaPassageiros } from "./lista-passageiros/lista-passageiros.screen";
+export { Depositar } from './depositar/depositar.screen'
+export { Perfil } from './perfil/perfil.component'
+export { Saque } from './saque/saque.screen'

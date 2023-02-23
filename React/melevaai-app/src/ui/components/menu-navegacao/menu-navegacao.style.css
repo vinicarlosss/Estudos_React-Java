@@ -1,0 +1,28 @@
+.menu-navegacao__ {
+    min-width: 220px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    margin-right: 20px;
+}
+
+.menu-navegacao__link {
+    line-height: 50px;
+    font-display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #252525;
+    font-weight: 500;
+    padding: 0 25px;
+    transition: background-color 0.5s ease;
+}
+
+.nao-selecionado:hover {
+    background-color: #f3f3f3;
+}
+
+.selecionado {
+    border-left: black solid 4px;
+    background-color: #ebebeb;
+}

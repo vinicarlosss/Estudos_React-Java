@@ -1,0 +1,43 @@
+.corrida__ {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.corrida__ main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.corrida__div--titulo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.corrida__div {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border: black solid 2px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+
+.corrida_div--infos-inicio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
