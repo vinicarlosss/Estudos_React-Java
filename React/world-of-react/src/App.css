@@ -1,0 +1,9 @@
+@font-face {
+  font-family: "lifeCraft";
+  src: url(./assets//fonts//LifeCraft_Font.ttf);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}

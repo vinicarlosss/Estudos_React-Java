@@ -1,0 +1,13 @@
+.cheats_button {
+  background-color: transparent;
+  border: none;
+}
+
+.cheats_img {
+  height: 50px;
+  width: 50px;
+}
+
+.cheats_requestResult {
+  color: #ffffff;
+}

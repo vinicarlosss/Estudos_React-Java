@@ -1,0 +1,158 @@
+.storePage {
+  background-image: url(../../../assets/img/backgroundStore.jpg);
+  height: 100vh;
+  color: #fff;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow-y: scroll;
+  text-align: center;
+}
+
+.store_content {
+  display: flex;
+  margin-left: 100px;
+}
+
+.card {
+  justify-content: space-evenly;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-y: scroll;
+}
+
+.store_content {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.components_title {
+  font-family: "lifeCraft";
+  font-size: 40px;
+  margin-bottom: 17px;
+  color: #6f550e;
+  text-shadow: 0 0 10px #fbd187, 0 5px 10px #fcbe42, 0 10px 21px #301a04,
+    0 0 42px #301a04;
+}
+
+.store_title {
+  font-family: "lifeCraft";
+  font-size: 50px;
+  margin-bottom: 40px;
+  color: #6f550e;
+  text-shadow: 0 0 10px #fbd187, 0 5px 10px #fcbe42, 0 10px 21px #301a04,
+    0 0 42px #301a04;
+}
+
+.subtitle {
+  font-size: 20px;
+  color: #b3aeab;
+  margin-bottom: 20px;
+}
+
+.store_form {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  flex-direction: column;
+}
+
+.store_content--one {
+  display: flex;
+  padding: 20px;
+  width: 400px;
+  height: 200px;
+  background-color: #3f2d24a9;
+  border-radius: 20px;
+  border: 2px #1d1d1d solid;
+  font-size: 16px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.text {
+  color: #b3aeab;
+}
+
+.select {
+  margin-top: 10px;
+  width: 150px;
+  color: #b3aeab;
+  font-weight: bold;
+  border-radius: 10px;
+  height: 30px;
+  border: 2px #1f130e solid;
+  background-color: #5d503ea7;
+}
+
+.cardItem {
+  margin-top: 30px;
+  padding: 30px;
+  width: 400px;
+  border-radius: 20px;
+  border: 2px #1f130e solid;
+  background-color: #3f2d24a9;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.cardItem_content--image {
+  width: 250px;
+  height: 250px;
+  border-radius: 10px;
+  border: 10px #1d1d1dba solid;
+}
+
+.cardItem_content--valor {
+  margin: 20px;
+  font-weight: bold;
+  color: #b3aeab;
+}
+
+.money {
+  margin-bottom: 20px;
+  position: static;
+  font-size: 25px;
+  font-weight: bold;
+  color: #e7810cad;
+}
+
+.button_shopPage {
+  width: 200px;
+  height: 70px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #b3aeab;
+  background-color: #e7810cd4;
+}
+
+.mensagem_store {
+  font-weight: bold;
+  font-size: 20px;
+  color: #b3aeab;
+}
+
+.store_content--two {
+  margin-top: 100px;
+  display: fixed;
+}
+
+.itemsSell {
+  margin-top: 30px;
+  padding: 40px;
+  width: 400px;
+  border-radius: 20px;
+  border: 2px #1f130e solid;
+  background-color: #3f2d24a9;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  max-height: 400px;
+  overflow-y: scroll;
+}

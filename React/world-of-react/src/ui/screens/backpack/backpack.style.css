@@ -1,0 +1,78 @@
+.backpack_page {
+  margin: 0;
+  background-image: url(../../../assets/img/backpackBackgroound.jpg);
+  height: 100vh;
+  color: #fff;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+}
+
+.character_bag--title {
+  font-family: "lifeCraft";
+  font-size: 60px;
+  text-shadow: 3px 3px 3px #1d1d1d;
+  margin-bottom: 20px;
+  color: #291e3eb1;
+  text-shadow: 0 0 10px #c681ff, 0 5px 10px #7055a2b1, 0 10px 21px #752da5,
+    0 0 42px #8e3ef0;
+}
+
+.infos_item--mensagem {
+  color: #0f1527;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.character_bag {
+  max-width: 350px;
+  margin-top: 20px;
+  height: 300px;
+  background-color: #7055a2b1;
+  border-radius: 40px;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border: 2px #1f130e solid;
+  padding: 20px;
+  flex-direction: column;
+  gap: 20px;
+}
+.item_bag {
+  width: 100px;
+  border: 2px #1f130e solid;
+  background-color: #7d4c37;
+  border-radius: 100%;
+}
+
+.infos_item {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.item_card {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.item_card--data {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 5px;
+  margin-left: 15px;
+  font-weight: bold;
+}
+
+.character_bag--name {
+  font-weight: bold;
+  font-size: 20px;
+  color: #bcbde9;
+}

@@ -1,0 +1,98 @@
+.questsPage {
+  margin-top: 0;
+  background-image: url(../../../assets/img/backgoundMissions.jpg);
+  height: 100vh;
+  color: #fff;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background-size: cover;
+  text-align: center;
+  overflow-y: scroll;
+}
+
+.questsPage_content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.questsPage_title {
+  font-family: "lifeCraft";
+  font-size: 50px;
+  margin-bottom: 20px;
+  color: #2b3550;
+  text-shadow: 0 0 10px #89abd1, 0 5px 10px #627bbf, 0 10px 21px #4d5e93,
+    0 0 42px #2b3550;
+}
+
+.questsPage_select {
+  height: 30px;
+  background-color: #4d5e93;
+  border: 2px #2b3550 solid;
+  border-radius: 10px 0px 0px 10px;
+  color: #fff;
+}
+
+.questsPage_button--accept {
+  height: 30px;
+  border-radius: 0px 10px 10px 0px;
+  background-color: #4d5e93;
+  color: #fff;
+}
+
+.questsPage_button--accept:hover {
+  background-color: #2b3550;
+}
+
+.cardQuest {
+  width: 500px;
+  background-color: #4d5e93aa;
+  border: 2px #2b3550 solid;
+  border-radius: 40px;
+  color: #ffffff;
+  font-weight: bold;
+  padding: 50px;
+}
+.cardQuest_image {
+  width: 300px;
+  border: 2px #2b3550 solid;
+}
+
+.questsPage_button--colect {
+  margin-top: 50px;
+  width: 250px;
+  height: 100px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  font-size: 20px;
+  color: #ffffff;
+  background-color: #e7810cad;
+  font-weight: bold;
+}
+
+.questsPage_button--colect:hover {
+  box-shadow: 0 0 5px #f48c03, 0 0 25px #e7810cad, 0 0 50px #de8a2aad,
+    0 0 100px #e7810cad;
+  background: linear-gradient(90deg, #e7810cad);
+  transition: 1s;
+  animation: btn-anim1 1s linear infinite;
+}
+
+@keyframes btn-anim1 {
+  0% {
+    left: -100%;
+  }
+
+  50%,
+  100% {
+    left: 100%;
+  }
+}
+
+.cardQuest_menssage {
+  font-size: 20px;
+  color: #1f130e;
+  font-weight: bold;
+}

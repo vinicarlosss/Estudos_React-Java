@@ -1,0 +1,18 @@
+.charactersList_options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.label_charactersList {
+  color: #fff;
+  font-size: 16px;
+}
+
+.charactersList {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  height: 350px;
+  overflow-y: scroll;
+}

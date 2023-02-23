@@ -1,0 +1,116 @@
+.create-character {
+  background-image: url("../../../assets/img/imgCriarPersonagem\ 1.png");
+  background-size: cover;
+  height: 100vh;
+}
+
+.create-character_header {
+  position: relative;
+  top: 10%;
+  margin: 0 0 0 80px;
+}
+.character_info {
+  width: 90%;
+}
+
+.create-character-form_factio-option {
+  display: flex;
+  padding-left: 20px;
+  padding-right: 20px;
+  gap: 20px;
+}
+
+.create-character_header--button {
+  color: #ffffff;
+  background-color: transparent;
+  border: transparent;
+  font-size: 25px;
+}
+
+.create-character_form--container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 30px 0 0 65px;
+  height: 90vh;
+}
+
+.form_container_title {
+  color: #8e3239;
+  font-size: 50px;
+  margin-left: 120px;
+
+  text-shadow: 8px 5px#1c0303;
+  margin-bottom: 30px;
+  font-family: "lifeCraft";
+}
+
+.create-character_form {
+  border: 2px #948e8ea8 solid;
+  width: 400px;
+  height: 400px;
+  margin-left: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #c8c1c1a8;
+  border-radius: 40px;
+  padding: 50px;
+}
+
+.create-character_form--label {
+  font-weight: bold;
+  font-size: 20px;
+  margin: 20px 0;
+  color: #511318;
+}
+
+.create-character_input {
+  display: flex;
+  width: 90%;
+  flex-direction: column;
+}
+
+.create-character_button--container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.create-character_form--success {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  height: 40px;
+  color: #000000;
+  border-color: #f5c2c7;
+  font-weight: bold;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.create-character_form--error {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  height: 40px;
+  color: #842029;
+  border-color: #f5c2c7;
+  font-weight: bold;
+  padding: 25px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+.create-character_form--button {
+  width: 200px;
+  height: 50px;
+  border-radius: 20px;
+  color: #3a1014;
+  font-size: 17px;
+  background-color: #8b6060bf;
+  border: 2px #533c3ca8 solid;
+}

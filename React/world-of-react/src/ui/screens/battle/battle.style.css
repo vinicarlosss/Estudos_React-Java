@@ -1,0 +1,79 @@
+.battlePage {
+  background-image: url("../../../assets/img/backgroundBattle.jpg");
+  background-size: cover;
+  height: 100vh;
+  margin-top: 0;
+  overflow-y: scroll;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.battlePage_title {
+  font-family: "lifeCraft";
+  font-size: 60px;
+  margin-bottom: 20px;
+  color: #2d120b;
+  text-shadow: 0 0 10px #fbd187, 0 5px 10px #fcbe42, 0 10px 21px #a54d2d,
+    0 0 42px #f07f3e;
+}
+
+.battlePage_select {
+  height: 30px;
+  background-color: #602f1b;
+  border: 2px #2d120b solid;
+  border-radius: 10px 0px 0px 10px;
+  color: #fff;
+}
+
+.battlePage_button {
+  height: 30px;
+  border-radius: 0px 10px 10px 0px;
+  background-color: #2d120b;
+  color: #fff;
+}
+
+.vs_battle {
+  background-color: #2d120b66;
+  border-radius: 100%;
+  width: 200px;
+  height: 200px;
+  border: #2d120b 1px solid;
+}
+
+.battle_result {
+  margin-top: 10px;
+  font-size: 50px;
+  font-family: "lifeCraft";
+  color: #2d120b;
+  text-shadow: 0 0 5px #fbd187, 0 0 25px #fcbe42, 0 0 50px #5f2212,
+    0 0 100px #2d120b;
+  height: 60px;
+}
+
+.battle-field {
+  width: 90%;
+  height: 500px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  align-self: center;
+}
+
+.battle-character-container {
+  width: 500px;
+  height: 350px;
+  border: #a54d2d solid 4px;
+}
+
+.enemy-option {
+  color: #2d120b;
+}
+
+.green-option {
+  background-color: rgb(179, 255, 179);
+}
+
+.red-option {
+  background-color: rgb(255, 155, 155);
+}

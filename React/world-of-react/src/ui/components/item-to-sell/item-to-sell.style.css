@@ -1,0 +1,30 @@
+.container {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  cursor: pointer;
+  margin-bottom: 30px;
+  border: 10px;
+}
+
+.hide {
+  display: none;
+}
+
+.container-img {
+  margin-top: 40px;
+  width: 250px;
+  height: 250px;
+  border-radius: 10px;
+  border: 10px #1d1d1dba solid;
+}
+
+.selected {
+  border: #1f130e 10px solid;
+}
+
+.info {
+  font-size: 16px;
+  font-weight: bold;
+  color: #b3aeab;
+}

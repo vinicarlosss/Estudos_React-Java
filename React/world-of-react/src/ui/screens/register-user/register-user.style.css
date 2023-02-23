@@ -1,0 +1,51 @@
+.logo {
+  width: 300px;
+  margin-left: 150px;
+}
+
+.register-user_main--button {
+  margin-left: 80px;
+  font-weight: bold;
+  text-decoration: none;
+  color: inherit;
+}
+
+.register-user_main {
+  background-image: url("../../../assets//img/register.jpg");
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.register-user_main--form {
+  border: 2px #948e8ea8 solid;
+  width: 400px;
+  height: 400px;
+  margin-left: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #c8c1c1a8;
+  border-radius: 40px;
+}
+
+.register-user_input {
+  display: flex;
+  flex-direction: column;
+}
+
+.register-user_form--request-result {
+  color: #842029;
+  font-weight: bold;
+}
+
+.register-user_form--button {
+  width: 100px;
+  height: 30px;
+  border-radius: 20px;
+  border: 2px #948e8ea8 solid;
+  font-weight: bold;
+}

@@ -1,0 +1,40 @@
+.login_main {
+  background-image: url("../../../assets//img/backgroundLogin.png");
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.login_form {
+  border: 2px #948e8ea8 solid;
+  width: 400px;
+  height: 400px;
+  margin-left: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #c8c1c1a8;
+  border-radius: 40px;
+}
+.login_input {
+  display: flex;
+  flex-direction: column;
+}
+label {
+  width: 250px;
+}
+.login_button {
+  width: 100px;
+  height: 30px;
+  margin-right: 20px;
+  border-radius: 20px;
+  border: 2px #948e8ea8 solid;
+}
+
+.logo {
+  width: 300px;
+  margin-left: 150px;
+}
