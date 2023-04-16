@@ -1,0 +1,154 @@
+.service-container {
+  display: flex;
+  flex-direction: column;
+  background: white;
+  word-break: break-all;
+  max-width: 360px;
+  max-height: 500px;
+  position: relative;
+  overflow: hidden;
+}
+
+.overlay-services-card {
+  position: absolute;
+  background: #6e7786;
+  padding: 20px;
+  top: -30px;
+  left: 0;
+  text-align: justify;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  animation: showOverlay 0.5s;
+}
+
+.overlay-services-card-content {
+  font-size: 17px;
+}
+
+.overlay-services-card-content p {
+  padding-top: 20px;
+}
+
+.close-overlay-services {
+  position: absolute;
+  background: #6e7786;
+  top: 370px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  animation: closeOverlay 0.5s;
+}
+
+@keyframes showOverlay {
+  from {
+    top: 370px;
+  }
+
+  to {
+    top: -30px;
+  }
+}
+
+@keyframes closeOverlay {
+  from {
+    top: 0;
+  }
+
+  to {
+    top: 370px;
+  }
+}
+
+.service-container > img {
+  max-width: 400px;
+  min-height: 200px;
+  object-fit: cover;
+  user-select: none;
+}
+
+.service-content {
+  padding: 10px 12px;
+  font-size: 15px;
+  height: 100%;
+}
+
+.service-content p {
+  margin-bottom: 10px;
+  text-align: justify;
+}
+
+.provider-information p {
+  z-index: 2;
+}
+
+.service-content p:first-child {
+  color: #666666;
+}
+
+.service-content p:nth-child(2) {
+  font-weight: bold;
+}
+
+.provider-information {
+  background: #6e7786;
+  display: flex;
+  padding: 10px 14px;
+  align-items: center;
+  color: white;
+  justify-content: space-between;
+}
+
+.provider-information img:first-child {
+  width: 70px;
+  height: 70px;
+  border-radius: 100%;
+  z-index: 2;
+}
+
+.provider-information > div {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.point-info-question-service {
+  color: rgb(245, 245, 245);
+  width: 26px;
+  height: 26px;
+  cursor: pointer;
+  transition: 0.2s;
+  z-index: 2;
+}
+
+.point-info-question-service:hover {
+  color: rgba(228, 228, 228, 0.749);
+}
+
+.point-info-question-service:active {
+  color: grey;
+}
+
+.delete-button-service {
+  position: relative;
+  top: 40px;
+}
+
+.overlay-services-card-content > div > p:first-child {
+  padding-bottom: 20px;
+}
+
+.overlay-services-card-content > div > p:last-child {
+  padding-bottom: 20px;
+}
+
+.email-services {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding-top: 20px;
+}
+
+.email-services > span {
+  font-weight: bold;
+}

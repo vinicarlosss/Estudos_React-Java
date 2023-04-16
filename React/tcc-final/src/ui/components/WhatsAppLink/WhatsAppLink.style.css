@@ -1,0 +1,16 @@
+.whatsapp-link > a {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: white;
+  text-decoration: none;
+}
+
+.whatsapp-link span:first-of-type {
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.whatsapp-link span:nth-child(3) {
+  text-decoration: underline;
+}

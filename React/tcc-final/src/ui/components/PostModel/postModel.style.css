@@ -1,0 +1,94 @@
+.delete-button {
+  cursor: pointer;
+  position: relative;
+}
+
+.posts-container {
+  background: white;
+  max-width: 550px;
+  min-width: 550px;
+  padding: 25px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.formatted-date-post p:nth-child(2) {
+  color: #7c7c7c;
+  font-size: 14px;
+}
+
+.formatted-date-post p:nth-child(1) {
+  font-size: 20px;
+  font-weight: 500;
+  padding-bottom: 4px;
+}
+
+.post-publisher {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+
+.trash-can-position {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.post-body img {
+  padding-top: 30px;
+  max-width: 550px;
+  min-width: 550px;
+}
+
+.post-like img {
+  max-width: 25px;
+}
+
+.post-comment img {
+  max-width: 25px;
+}
+
+.post-publisher > img:first-child {
+  width: 60px;
+  height: 60px;
+  display: block;
+  border-radius: 50%;
+}
+
+.post-body {
+  padding-top: 30px;
+}
+
+.post-like {
+  display: flex;
+  gap: 10px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.post-comment {
+  display: flex;
+  gap: 10px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.post-actions {
+  display: flex;
+  justify-content: space-around;
+}
+
+.post-stats {
+  display: flex;
+  justify-content: space-between;
+  padding: 14px 0;
+}
+
+.post-comment-input {
+  display: flex;
+  align-items: center;
+  padding-top: 25px;
+  gap: 12px;
+}

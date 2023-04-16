@@ -1,0 +1,31 @@
+.comments-scroll {
+  overflow: auto;
+  max-height: 200px;
+}
+
+.comment-container {
+  padding-top: 24px;
+  display: flex;
+  gap: 12px;
+}
+
+.comment-container img {
+  width: 50px;
+  height: 50px;
+  display: block;
+  border-radius: 50%;
+}
+
+.comment-data {
+  display: flex;
+  flex-direction: column;
+  background: #d9d9d9;
+  width: 100%;
+  border-radius: 10px;
+  padding: 10px;
+  gap: 8px;
+}
+
+.comment-data p:first-child {
+  font-weight: 500;
+}

@@ -1,0 +1,60 @@
+.list-table-row-input {
+  width: 60%;
+  height: 10px;
+  border: 1px solid rgba(128, 128, 128, 0.216);
+  background-color: #fff;
+  margin: 0;
+}
+.list-table-body-row-input {
+  padding: 0;
+  height: 10px;
+}
+
+.list-table-body-row-button {
+  width: 50px;
+}
+
+.list-table-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.list-table-button-icon {
+  width: 20px;
+  height: 20px;
+  margin: 0 15px;
+  padding: 0;
+}
+
+.list-submit-button {
+  color: rgb(83, 221, 83);
+}
+
+.list-cancel-button {
+  color: rgb(217, 66, 66);
+}
+
+.list-delete-button {
+  position: relative;
+}
+
+.grocery-empty-warn-container {
+  position: relative;
+}
+
+.list-table-body-row-warn {
+  height: 25px;
+}
+
+.grocery-empty-warn {
+  color: grey;
+  display: flex;
+  position: absolute;
+  bottom: 0.35em;
+  right: 0.5em;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+}

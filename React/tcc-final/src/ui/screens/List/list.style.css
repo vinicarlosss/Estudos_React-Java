@@ -1,0 +1,123 @@
+.list-main {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  width: 100%;
+  min-height: 100vh;
+  height: 100vh;
+}
+
+.list-table-body-row {
+  height: 25px;
+}
+
+.list-title-help-div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.list-question-icon {
+  color: rgba(1, 1, 1, 0.318);
+  padding-top: 10px;
+}
+.list-question-icon:hover {
+  color: rgba(1, 1, 1, 0.499);
+}
+
+.list-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding: 0 0 8rem 0;
+  overflow-y: scroll;
+}
+
+.list-title-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 50%;
+  height: 6vh;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.list-button {
+  padding: 15px 20px 15px 20px;
+  margin: 0;
+}
+
+.list-button-clean {
+  padding: 15px 20px 15px 20px;
+  background-color: rgb(213, 56, 56);
+}
+.list-button-clean-icon {
+  width: 15px;
+  height: 15px;
+}
+
+th,
+td {
+  padding: 15px;
+  text-align: center;
+}
+
+td {
+  border-bottom: 1px solid #ddd;
+  border-top: 1px solid #ddd;
+}
+
+.list-table-body-row:hover {
+  background-color: #f5f5f5;
+}
+
+tr:nth-child(even) td:hover {
+  background-color: #ffffff;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.list-table-head-container {
+  background-color: #4caf50;
+  color: white;
+}
+.list-table-head-row {
+  width: 80px;
+}
+
+.list-delete-button {
+  cursor: pointer;
+  width: 100%;
+}
+
+.list-table {
+  width: 50%;
+  overflow-y: scroll;
+  box-shadow: 0 0 5px 0 rgba(128, 128, 128, 0.471);
+  border: 1px solid rgba(128, 128, 128, 0.415);
+  border-radius: 5px;
+}
+
+.list-value-container {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin-top: 10px;
+}
+
+.list-value-title {
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.list-loading-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
